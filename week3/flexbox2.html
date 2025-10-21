@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox2</title>
+    <style>
+        .dailou {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .dailou div {
+            width: calc(100% / 4);
+            margin: auto;
+        }
+
+        .dailou div.logo {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dailou">
+        <div class="logo"><img src="image/logo.png" alt="logo"></div>
+        <div class="home">Home</div>
+        <div class="services">Services</div>
+        <div class="works">Works</div>
+        <div class="project detail">Project Details</div>
+        <div class="contact">Contact</div>
+        <div class="phone logo"><img src="image/phone.png" alt="phone" width="25px"></div>
+        <div class="menu"><img src="image/menu.svg" alt="menu"></div>
+
+    </div>
+
+</body>
+
+</html>
