@@ -6,36 +6,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox</title>
     <style>
+        body {
+            background-color:
+                #f6f5ef;
+        }
+
         .dailou {
             display: flex;
-            background-color: rgb(186, 157, 157);
+
             justify-content: center;
-            ;
+            gap: 20px;
 
         }
 
         .dailou div {
+            background-color: #ffffff;
+            padding: 15px;
+            border-radius: 10px;
             width: calc(100% / 3);
             margin: auto;
+        }
+
+        .residential img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .residential h1 {
+            font-family: "Oxygen", sans-serif;
+        }
+
+
+        .commercial img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .commercial h1 {
+            font-family: "Oxygen", sans-serif;
+        }
+
+        .infrastructure img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .infrastructure h1 {
+            font-family: "Oxygen", sans-serif;
         }
     </style>
 </head>
 
 <body>
     <div class="dailou">
-        <div class="residential"><img src="image/1.jpg" alt="residential" width="350px" height="300">
+        <div class="residential">
+            <img src="image/1.jpg" alt="residential">
             <h1>residential</h1>
             <p>blabla</p>
         </div>
-        <div class="commercial"><img src="image/2.jpg" alt="commercial" width="350px" height="300px">
+        <div class="commercial">
+            <img src="image/2.jpg" alt="commercial">
             <h1>residential</h1>
-            <p>blabla
-            </p>
+            <p>blabla </p>
         </div>
-        <div class="infrastructure"><img src="image/3.jpg" alt="infrastructure" width="350px" height="300px">
+        <div class="infrastructure">
+            <img src="image/3.jpg" alt="infrastructure">
             <h1>residential</h1>
-            <p>blabla
-            </p>
+            <p>blabla</p>
         </div>
     </div>
 </body>
