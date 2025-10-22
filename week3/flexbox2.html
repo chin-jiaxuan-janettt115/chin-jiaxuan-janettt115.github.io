@@ -6,40 +6,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox2</title>
     <style>
-        .dailou {
+        body {
+            background-color: black;
+        }
+
+        .first {
+            background-color: white;
+            padding: 7px 40px;
             display: flex;
-            gap: 20px;
-            justify-content: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .first div.hamburger img {
+            width: 30px;
+            height: 30px;
+
+        }
+
+        .second {
+            background-color: white;
+            padding: 7px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .second div {
+            display: flex;
+        }
+
+        .second div.right {
+            gap: 10px;
+            align-items: center;
+        }
+
+        .second div.phone {
+            align-items: center;
+            gap: 10px;
+        }
+
+        .second div.phone img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .second div.phone p {
+            font-weight: bolder;
+            font-family: "Oxygen", sans-serif;
+            font-size: 15px;
+        }
+
+        .second div.hamburger img {
+            width: 30px;
+            height: 30px;
+
+        }
+
+        .dailou {
+            background-color: rgb(255, 255, 255);
+            padding: 7px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
 
         .dailou div {
-            width: calc(100% / 4);
-            margin: auto;
+            display: flex
         }
 
-        .dailou div.logo {
-            width: 100%;
+        .dailou div.menu {
+            gap: 35px;
+            font-family: "Oxygen", sans-serif;
+        }
+
+        .dailou div.menu div.services {
+            color: #f9612b;
+        }
+
+        .dailou div.rightpanel {
+            gap: 20px;
+        }
+
+        .dailou div.rightpanel div.phone {
+            gap: 10px;
+            align-items: center;
+        }
+
+        .dailou div.rightpanel div.phone p {
+            font-weight: bolder;
+            font-family: "Oxygen", sans-serif;
+            font-size: 15px;
+        }
+
+        .dailou div.rightpanel div.phone img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .dailou div.rightpanel div.contactbutton a {
+            font-family: "Oxygen", sans-serif;
+            text-decoration: none;
+            background-color: #f9612b;
+            color: white;
+            padding: 13px 17px;
+            border-radius: 8px;
+            font-size: 15px;
         }
     </style>
 </head>
 
 <body>
+    <div class="first">
+        <div class="logo">
+            <img src="image/logo.png" alt="logo" width="200px">
+        </div>
+        <div class="hamburger">
+            <img src="image/hamburger.png" alt="hamburger">
+        </div>
+    </div>
+
+    <div class="second">
+        <div class="logo">
+            <img src="image/logo.png" alt="logo" width="200px">
+        </div>
+        <div class="right">
+            <div class="phone">
+                <img src="image/phone.png" alt="phone">
+                <p>555-123-4567</p>
+            </div>
+            <div class="hamburger">
+                <img src="image/hamburger.png" alt="hamburger">
+            </div>
+        </div>
+    </div>
+
+
+
+
     <div class="dailou">
-        <div class="logo"><img src="image/logo.png" alt="logo"></div>
+        <div class="logo"><img src="image/logo.png" alt="logo" width="200px"></div>
 
         <div class="menu">
             <div class="home">Home</div>
             <div class="services">Services</div>
-            <div class="works">Works</div>
+            <div class="work">Work</div>
             <div class="project detail">Project Details</div>
             <div class="contact">Contact</div>
         </div>
-        <div class="right">
-            <div class="phone logo"><img src="image/phone.png" alt="phone" width="25px"></div>
-            <div class="menu"><img src="image/menu.svg" alt="menu"></div>
+        <div class="rightpanel">
+            <div class="phone">
+                <img src="image/phone.png" alt="phone">
+                <p>555-123-4567</p>
+            </div>
+            <div class="contactbutton">
+                <a href="https://construction.elementra.themerex.net/contact/">Contact</a>
+            </div>
         </div>
     </div>
-
 </body>
 
 </html>
