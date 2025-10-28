@@ -32,15 +32,12 @@
     .phone {
         align-items: center;
         gap: 10px;
+        font-weight: bolder;
     }
 
     .phone img {
         width: 20px;
         height: 20px;
-    }
-
-    .phone p {
-        font-weight: bolder;
     }
 
     .menu {
@@ -53,22 +50,51 @@
 
     .right {
         gap: 20px;
+        align-items: center;
     }
 
     .contactbutton a {
         text-decoration: none;
         background-color: #f9612b;
         color: white;
-        padding: 0px 17px;
+        padding: 13px 17px;
         border-radius: 8px;
-        align-content: center;
+
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 30px;
+    }
+
+    @media screen and (min-width: 1300px) {
+
+        .hamburger img {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        .contactbutton a {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .menu div {
+            display: none;
+        }
+
+        .phone img,
+        p {
+            display: none;
+        }
     }
 </style>
 
 <body>
     <div class="dailou">
         <div class="logo"><img src="image/logo.png" alt="logo" width="200px"></div>
-
         <div class="menu">
             <div class="home">Home</div>
             <div class="services">Services</div>
@@ -84,6 +110,7 @@
             <div class="contactbutton">
                 <a href="https://construction.elementra.themerex.net/contact/">Contact</a>
             </div>
+            <div class="hamburger"><img src="image/hamburger.png" alt="menu"></div>
         </div>
     </div>
 
