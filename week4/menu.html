@@ -66,23 +66,28 @@
 
     }
 
-    .hamburger {
+    .hamburger img {
         width: 30px;
-        height: 30px;
-    }
-
-    @media screen and (min-width: 1300px) {
-
-        .hamburger img {
-            display: none;
-        }
     }
 
     @media screen and (max-width: 1300px) {
+
+        .dailou .hamburger img {
+            display: block;
+        }
+
         .contactbutton a {
             display: none;
         }
     }
+
+    @media screen and (min-width: 1300px) {
+
+        .dailou .hamburger img {
+            display: none;
+        }
+    }
+
 
     @media screen and (max-width: 1000px) {
         .menu div {
