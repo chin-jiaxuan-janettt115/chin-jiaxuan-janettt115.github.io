@@ -11,15 +11,22 @@
     <style>
         body {
             color: #191A23;
-            margin: 70px;
+            margin: 5%;
             font-family: "Space Grotesk", sans-serif;
             padding: 0px 20px;
+        }
+
+        .positivus img {
+            width: 100%;
+            max-width: 180px;
+            height: auto;
         }
 
         .top {
             display: flex;
             justify-content: space-between;
             font-size: 20px;
+            padding-top: 20px;
         }
 
         .topright div {
@@ -59,8 +66,9 @@
             padding: 60px 100px;
         }
 
-        .middle img {
+        .middle .illustration {
             width: 500px;
+            height: auto;
         }
 
         .middle h1 {
@@ -81,7 +89,7 @@
         }
 
         .bottomleft {
-            width: 75%;
+            width: 55%;
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -130,6 +138,7 @@
         .bottomright {
             display: flex;
             flex-wrap: wrap;
+
             gap: 20px;
         }
 
@@ -143,6 +152,40 @@
 
         .bottomright h1 {
             font-size: 40px;
+        }
+
+        .hamburger {
+            display: none;
+        }
+
+        .hamburger img {
+            width: 30px;
+            height: auto;
+        }
+
+        @media screen and (max-width: 800px) {
+            .hamburger {
+                display: block;
+            }
+
+            .panel,
+            .request {
+                display: none;
+            }
+
+            .middle {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .middle .illustration img {
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }
+
+
         }
     </style>
 </head>
@@ -163,6 +206,7 @@
             <div class="request">
                 <a href="###">Request a quote</a>
             </div>
+            <div class="hamburger"><img src="image/hamburger (1).png" alt="menu"></div>
         </div>
     </div>
 
