@@ -77,31 +77,50 @@
             border-radius: 40px;
             padding: 60px;
             display: flex;
-            gap: 150px;
+            gap: 200px;
         }
 
         .bottomleft {
-            color: #F3F3F3;
+            width: 75%;
+            display: flex;
+            flex-direction: column;
             gap: 20px;
+        }
+
+        .bottomword {
+            color: #F3F3F3;
+            gap: 50px;
             flex-direction: column;
             display: flex;
         }
 
-        .bottomleft h1,
+        .bottomword h1,
         h2,
         p {
             margin: 0;
         }
 
-        .bottomleft h1 {
+        .bottomword h1 {
             color: #191A23;
             background-color: #B9FF66;
             padding: 0px 10px;
             border-radius: 5px;
+            font-size: 40px;
+        }
+
+        .bottomword h2 {
+            font-size: 30px;
+        }
+
+        .bottomword p {
+            font-size: 17px;
         }
 
         .readbutton {
             display: flex;
+            color: #B9FF66;
+            align-items: center;
+            gap: 5px;
         }
 
         .readbutton img {
@@ -159,37 +178,38 @@
 
     <div class="bottom">
         <div class="bottomleft">
-            <div class="bottomleft">
+            <div class="bottomword">
                 <h1 class="bottomh1">Featured Success Story</h1>
                 <h2 class="bottomh2">Scaling Success for a Leading E-Commerce Brand</h2>
                 <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase visibility,
                     drive traffic, and boost sales.
                 </p>
             </div>
+            <div class="readbutton">
+                <img src="image/right.png" alt="right">
+                <p>Read</p>
+            </div>
         </div>
-        <div class="readbutton">
-            <img src="image/right.png" alt="right">
-            <p>Read</p>
+        <div class="bottomright">
+            <div class="200">
+                <h1>200%</h1>
+                <p>increase in organic traffic</p>
+            </div>
+            <div class="150">
+                <h1>150%</h1>
+                <p>rise in online sales</p>
+            </div>
+            <div class="75">
+                <h1>75%</h1>
+                <p>reduction in cost-per-click[CPC]</p>
+            </div>
+            <div class="300">
+                <h1>300%</h1>
+                <p>improvement in conversion rate</p>
+            </div>
         </div>
     </div>
-    <div class="bottomright">
-        <div class="200">
-            <h1>200%</h1>
-            <p>increase in organic traffic</p>
-        </div>
-        <div class="150">
-            <h1>150%</h1>
-            <p>rise in online sales</p>
-        </div>
-        <div class="75">
-            <h1>75%</h1>
-            <p>reduction in cost-per-click[CPC]</p>
-        </div>
-        <div class="300">
-            <h1>300%</h1>
-            <p>improvement in conversion rate</p>
-        </div>
-    </div>
+
 
 
 </body>
