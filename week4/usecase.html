@@ -174,15 +174,37 @@
             }
 
             .middle {
+                display: flex;
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
+                padding: 40px 30px;
+                gap: 40px;
             }
+
+            .word {
+                order: 1;
+            }
+
+
+            .middle .illustration {
+                order: 2;
+            }
+
+            .middleword {
+                order: 3;
+            }
+
+
 
             .middle .illustration img {
                 width: 100%;
                 max-width: 400px;
                 height: auto;
+            }
+
+            .middle p {
+                font-size: 18px;
             }
 
 
@@ -212,11 +234,14 @@
 
     <div class="middle">
         <div class="illustration"><img src="image/illus.png" alt="illustration"></div>
-        <div class="Word">
+        <div class="word">
             <h1>Proven Success Stories</h1>
-            <p>See how our innovative digital marketing strategies have transformed businesses. Whether through SEO,
-                PPC, social media, or web design, these use cases highlight the tangible impact of our work. Explore the
-                successes and envision what we can achieve together.</p>
+            <div class="middleword">
+                <p>See how our innovative digital marketing strategies have transformed businesses. Whether through SEO,
+                    PPC, social media, or web design, these use cases highlight the tangible impact of our work. Explore
+                    the
+                    successes and envision what we can achieve together.</p>
+            </div>
         </div>
     </div>
 
