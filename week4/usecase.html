@@ -74,12 +74,26 @@
         .bottom {
             margin-top: 50px;
             background-color: #191A23;
-            color: #F3F3F3;
             border-radius: 40px;
-            padding: 60px 80px;
+            padding: 60px;
+            display: flex;
+            gap: 150px;
         }
 
-        .bottom .bottomh1 {
+        .bottomleft {
+            color: #F3F3F3;
+            gap: 20px;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .bottomleft h1,
+        h2,
+        p {
+            margin: 0;
+        }
+
+        .bottomleft h1 {
             color: #191A23;
             background-color: #B9FF66;
             padding: 0px 10px;
@@ -94,8 +108,22 @@
             width: 50px;
         }
 
+        .bottomright {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
         .bottomright div {
-            ba
+            background-color: #F3F3F3;
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+            width: 45%;
+        }
+
+        .bottomright h1 {
+            font-size: 40px;
         }
     </style>
 </head>
@@ -131,40 +159,38 @@
 
     <div class="bottom">
         <div class="bottomleft">
-            <div class="bottomh1">
-                <h1>Featured Success Story</h1>
-            </div>
-            <div class="bottomh2">
-                <h2>Scaling Success for a Leading E-Commerce Brand </h2>
-            </div>
-            <div class="bottomdescrip"></div>
-            <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase visibility,
-                drive traffic, and boost sales.
-            </p>
-            <div class="readbutton">
-                <img src="image/right.png" alt="right">
-                <p>Read</p>
+            <div class="bottomleft">
+                <h1 class="bottomh1">Featured Success Story</h1>
+                <h2 class="bottomh2">Scaling Success for a Leading E-Commerce Brand</h2>
+                <p>Through a comprehensive SEO and PPC strategy, we helped this e-commerce brand increase visibility,
+                    drive traffic, and boost sales.
+                </p>
             </div>
         </div>
-        <div class="bottomright">
-            <div class="200">
-                <h1>200%</h1>
-                <p>increase in organic traffic</p>
-            </div>
-            <div class="150">
-                <h1>150%</h1>
-                <p>rise in online sales</p>
-            </div>
-            <div class="75">
-                <h1>75%</h1>
-                <p>reduction in cost-per-click[CPC]</p>
-            </div>
-            <div class="300">
-                <h1>300%</h1>
-                <p>improvement in conversion rate</p>
-            </div>
+        <div class="readbutton">
+            <img src="image/right.png" alt="right">
+            <p>Read</p>
         </div>
     </div>
+    <div class="bottomright">
+        <div class="200">
+            <h1>200%</h1>
+            <p>increase in organic traffic</p>
+        </div>
+        <div class="150">
+            <h1>150%</h1>
+            <p>rise in online sales</p>
+        </div>
+        <div class="75">
+            <h1>75%</h1>
+            <p>reduction in cost-per-click[CPC]</p>
+        </div>
+        <div class="300">
+            <h1>300%</h1>
+            <p>improvement in conversion rate</p>
+        </div>
+    </div>
+
 
 </body>
 
