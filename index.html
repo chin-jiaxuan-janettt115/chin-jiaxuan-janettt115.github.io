@@ -13,7 +13,10 @@
             background-color: #DCF2F1;
             font-family: "oxygen", sans-serif;
             color: #365486;
+        }
 
+        body a {
+            color: #0F1035;
         }
 
         .toppannel {
@@ -49,17 +52,27 @@
             border-radius: 50%;
         }
 
+        .box-container {
+            margin: 50px;
+        }
+
         .smallbox {
             display: flex;
             justify-content: center;
             gap: 40px;
+
         }
 
         .smallbox div {
             background-color: #7FC7D9;
             border-radius: 20px;
-            width: 400px;
+            width: 100%;
             height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
 
         .smallbox a {
@@ -68,9 +81,24 @@
             text-decoration: none;
         }
 
+
         .bigbox div {
+            margin-top: 50px;
             background-color: #7FC7D9;
             border-radius: 20px;
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .bigbox a {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -98,33 +126,37 @@
             <p>Hellooww, I'm a web publishing student passionate about clean design and calm user experiences.
             </p>
         </div>
-        <div class="smallbox">
-            <div class="box">
-                <h3>Week2</h3>
-                <a href="week2/artist.html" target="_blank">Exercise1</a>
-                <a href="week2/button.html" target="_blank">Exercise2</a>
-                <a href="week2/csstest.html" target="_blank">Exercise3</a>
+        <div class="box-container">
+            <div class="smallbox">
+                <div class="box">
+                    <h3>Week2</h3>
+                    <a href="week2/artist.html" target="_blank">Exercise1</a>
+                    <a href="week2/button.html" target="_blank">Exercise2</a>
+                    <a href="week2/csstest.html" target="_blank">Exercise3</a>
+                </div>
+                <div class="box">
+                    <h3>Week3</h3>
+                    <a href="week3/flexbox1.html" target="_blank">Exercise1</a>
+                    <a href="week3/flexbox2.html" target="_blank">Exercise2</a>
+                    <a href="week3/flexbox3.html" target="_blank">Exercise3</a>
+                </div>
+                <div class="box">
+                    <h3>Week4</h3>
+                    <a href="week4/menu.html" target="_blank">Exercise1</a>
+                    <a href="week4/usecase.html" target="_blank">Exercise2</a>
+                    <a href="week3/flexbox3.html" target="_blank">Exercise3</a>
+                </div>
             </div>
-            <div class="box">
-                <h3>Week3</h3>
-                <a href="week3/flexbox1.html" target="_blank">Exercise1</a>
-                <a href="week3/flexbox2.html" target="_blank">Exercise2</a>
-                <a href="week3/flexbox3.html" target="_blank">Exercise3</a>
-            </div>
-            <div class="box">
-                <h3>Week4</h3>
-                <a href="week4/menu.html" target="_blank">Exercise1</a>
-                <a href="week4/usecase.html" target="_blank">Exercise2</a>
-                <a href="week3/flexbox3.html" target="_blank">Exercise3</a>
-            </div>
-        </div>
-        <div class="bigbox">
-            <div class="bossbox">
-                <h3>Week5</h3>
-                <a href="##" target="_blank"></a>
+            <div class="bigbox">
+                <div class="bossbox">
+                    <h3>Week5</h3>
+                    <a href="##" target="_blank">Exercise1</a>
+                    <a href="##" target="_blank">Exercise2</a>
+                </div>
             </div>
         </div>
     </div>
+
     <div class="bottom">
         <div class="bottomsocial"></div>
     </div>
