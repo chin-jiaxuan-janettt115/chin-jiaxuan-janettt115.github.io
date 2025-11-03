@@ -22,7 +22,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
     }
 
     .dailou div {
@@ -53,9 +52,10 @@
     }
 
     .right {
-        gap: 20px;
         align-items: center;
     }
+
+
 
     .contactbutton a {
         text-decoration: none;
@@ -63,27 +63,20 @@
         color: white;
         padding: 13px 17px;
         border-radius: 8px;
-
     }
 
     .hamburger img {
         width: 30px;
+        display: none;
     }
 
     @media screen and (max-width: 1300px) {
 
         .dailou .hamburger img {
-            display: block;
+            display: flex;
         }
 
         .contactbutton a {
-            display: none;
-        }
-    }
-
-    @media screen and (min-width: 1300px) {
-
-        .dailou .hamburger img {
             display: none;
         }
     }
@@ -112,17 +105,18 @@
             <div class="contact">Contact</div>
         </div>
         <div class="right">
-            <div class="phone">
-                <img src="image/phone.png" alt="phone">
-                <p>555-123-4567</p>
+            <div class="bigright">
+                <div class="phone">
+                    <img src="image/phone.png" alt="phone">
+                    <p>555-123-4567</p>
+                    <div class="contactbutton">
+                        <a href="https://construction.elementra.themerex.net/contact/">Contact</a>
+                    </div>
+                </div>
+                <div class="hamburger"><img src="image/hamburger.png" alt="menu"></div>
             </div>
-            <div class="contactbutton">
-                <a href="https://construction.elementra.themerex.net/contact/">Contact</a>
-            </div>
-            <div class="hamburger"><img src="image/hamburger.png" alt="menu"></div>
         </div>
     </div>
-
 </body>
 
 </html>
