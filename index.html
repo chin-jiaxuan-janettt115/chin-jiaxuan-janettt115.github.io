@@ -5,9 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #010b0b;
+            background-color: #DCF2F1;
+            font-family: "oxygen", sans-serif;
+            color: #365486;
+
+        }
+
+        .toppannel {
+            display: flex;
+            justify-content: space-between;
+            background-color: #7FC7D9;
+            align-items: center;
+        }
+
+        .topsocial {
+            display: flex;
+            gap: 20px;
+            padding-right: 20px;
+        }
+
+
+        .topsocial img {
+            width: 25px;
+            height: 25px;
+        }
+
+        .logo img {
+            width: 20%;
+        }
+
+        .middle {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .profilepicture img {
+            width: 200px;
+            border-radius: 50%;
         }
     </style>
 </head>
@@ -26,7 +65,15 @@
         </div>
     </div>
     <div class="middle">
-        <div class="profile"></div>
+        <div class="profile">
+            <div class="profilepicture">
+                <img src="img/me.jpg" alt="profilepicture">
+            </div>
+            <h1>Chin Jia Xuan</h1>
+            <h2>Web Publishing</h2>
+            <p>Hii, I'm a web publishing student passionate about clean design and calm user experiences.
+            </p>
+        </div>
         <div class="smallbox"></div>
         <div class="bigbox"></div>
     </div>
