@@ -107,13 +107,19 @@ body a {
     margin: 0px auto;
 }
 
-@media (max-width: 660px) {
+@media (max-width: 900px) {
     .box-container h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .smallbox a,
     .bigbox a {
         font-size: smaller;
+    }
+
+    .smallbox {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 }
