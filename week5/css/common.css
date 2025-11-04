@@ -1,0 +1,30 @@
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 51px;
+    font-size: 20px;
+}
+
+.positivus img {
+    width: 219.54;
+    height: 38px;
+}
+
+.panel {
+    display: flex;
+    gap: 50px;
+}
+
+
+.panel {
+    display: flex;
+    gap: 40px;
+}
+
+.request a {
+    text-decoration: none;
+    color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 14px;
+    padding: 20px 35px;
+}
