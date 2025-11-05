@@ -1,24 +1,37 @@
-.top {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 51px;
-    font-size: 20px;
+body {
+    color: #191A23;
+    margin: 5%;
+    font-family: "Space Grotesk", sans-serif;
+    padding: 0px 20px;
 }
 
 .positivus img {
-    width: 219.54;
-    height: 38px;
+    width: 50%;
+}
+
+.top img {
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.topright div {
+    align-items: center;
+}
+
+.topright {
+    display: flex;
+    gap: 50px;
 }
 
 .panel {
     display: flex;
     gap: 50px;
-}
-
-
-.panel {
-    display: flex;
-    gap: 40px;
 }
 
 .request a {

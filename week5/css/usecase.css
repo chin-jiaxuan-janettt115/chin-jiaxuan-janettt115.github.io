@@ -1,35 +1,3 @@
-body {
-    color: #191A23;
-    margin: 5%;
-    font-family: "Space Grotesk", sans-serif;
-    padding: 0px 20px;
-}
-
-.positivus img {
-    width: 50%;
-}
-
-.top img {
-    width: 100%;
-}
-
-
-.topright div {
-    align-items: center;
-}
-
-.topright {
-    display: flex;
-    gap: 50px;
-}
-
-.panel {
-    display: flex;
-    gap: 50px;
-}
-
-
-
 .use {
     background-color: #B9FF66;
     padding: 5px 10px;
