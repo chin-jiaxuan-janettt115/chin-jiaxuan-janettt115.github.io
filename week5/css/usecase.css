@@ -5,21 +5,7 @@
 }
 
 .middle {
-    display: flex;
-    gap: 100px;
-    background-color: #F3F3F3;
-    margin-top: 5%;
-    border-radius: 40px;
-    padding: 60px 100px;
-}
-
-.middle .illustration {
-    width: 100%;
-    height: auto;
-}
-
-.middle h1 {
-    font-size: 65px;
+    gap: 200px;
 }
 
 .middle p {
@@ -67,9 +53,7 @@ p {
     font-size: 30px;
 }
 
-.bottomword p {
-    font-size: 17px;
-}
+
 
 .readbutton {
     display: flex;
@@ -115,15 +99,6 @@ p {
     margin: 0px;
 }
 
-.hamburger {
-    display: none;
-}
-
-.hamburger img {
-    width: 30px;
-    height: auto;
-}
-
 .mobile-featured-container {
     display: none;
 }
@@ -132,52 +107,8 @@ p {
     display: none;
 }
 
-@media screen and (max-width: 1300px) {
-    .top {
-        font-size: 15px;
-    }
-}
 
 @media screen and (max-width: 1200px) {
-    body {
-        margin: 1%;
-        padding: 0 10px;
-    }
-
-    .hamburger {
-        display: block;
-    }
-
-    .panel,
-    .request {
-        display: none;
-    }
-
-    .middle {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-        justify-content: center;
-    }
-
-    .middle h1 {
-        font-size: 50px;
-    }
-
-    .middle .illustration img {
-        display: none;
-    }
-
-    .middle p {
-        font-size: 18px;
-    }
-
-    .middle {
-        background-color: transparent;
-        margin-top: 0px;
-        padding: 0px;
-    }
 
     .mobile-illus {
         display: flex;
@@ -185,7 +116,6 @@ p {
         margin: 10% auto;
         justify-content: center;
     }
-
 
     .bottom {
         flex-direction: column;
