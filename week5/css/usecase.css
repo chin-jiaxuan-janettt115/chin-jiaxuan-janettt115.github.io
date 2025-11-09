@@ -53,8 +53,6 @@ p {
     font-size: 30px;
 }
 
-
-
 .readbutton {
     display: flex;
     color: #B9FF66;
@@ -86,7 +84,8 @@ p {
     border-radius: 10px;
     text-align: center;
     padding: 15px;
-    width: 40%;
+    width: 30%;
+    aspect-ratio: 1/1;
     display: flex;
     justify-content: center;
     align-items: center;
