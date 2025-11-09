@@ -16,6 +16,10 @@
     justify-content: space-between;
 }
 
+.mobile-illus img {
+    display: none;
+}
+
 @media screen and (max-width: 1200px) {
 
     .bottom {
@@ -25,9 +29,9 @@
         gap: 20px;
     }
 
-    .mobile-illus {
+    .mobile-illus img {
         display: flex;
-        width: 100%;
+        width: 90%;
         margin: 10% auto;
         justify-content: center;
     }
