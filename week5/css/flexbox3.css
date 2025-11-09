@@ -20,7 +20,11 @@
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+.illustration img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
 
     .bottom {
         width: 100%;
@@ -31,7 +35,7 @@
 
     .mobile-illus img {
         display: flex;
-        width: 90%;
+        width: 85%;
         margin: 10% auto;
         justify-content: center;
     }
