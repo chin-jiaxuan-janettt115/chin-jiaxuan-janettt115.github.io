@@ -1,0 +1,47 @@
+  body {
+      background-color: blueviolet;
+  }
+
+  .all {
+      margin: 3%;
+  }
+
+  .top {
+      text-align: center;
+      margin: auto;
+  }
+
+  .box {
+      display: flex;
+      gap: 20px;
+  }
+
+  .first {
+      background-color: #d1d3f3;
+      padding: 15px;
+      border-radius: 10px;
+  }
+
+  .first img {
+      width: 100%;
+  }
+
+  .word {
+      width: 70%;
+      background-color: #c69c9c;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+      position: relative;
+      top: -30px;
+  }
+
+  .word a {
+      color: rgb(33, 17, 215);
+  }
+
+  @media screen and (max-width: 1300px) {
+      .top h1 {
+          font-size: px;
+      }
+  }
