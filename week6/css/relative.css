@@ -1,5 +1,6 @@
   body {
-      background-color: blueviolet;
+      background-color: rgb(175, 8, 8);
+      font-family: "Space Grotesk", sans-serif;
   }
 
   .all {
@@ -18,7 +19,7 @@
   }
 
   .first {
-      background-color: #d1d3f3;
+      background-color: #e5e5e5;
       padding: 15px;
       border-radius: 10px;
   }
@@ -29,7 +30,7 @@
 
   .word {
       width: 70%;
-      background-color: #c69c9c;
+      background-color: #b4b4b4;
       padding: 10px;
       border-radius: 10px;
       text-align: center;
@@ -46,15 +47,25 @@
 
   @media screen and (max-width: 800px) {
       .top h1 {
-          font-size: 20px;
+          font-size: 25px;
       }
 
       .top p {
-          font-size: 20px;
+          font-size: 17px;
       }
 
       .box {
           flex-direction: column;
+      }
+
+      .box p {
+          font-weight: 500;
+      }
+
+      .box a {
+          text-decoration: none;
+          color: red;
+          font-weight: 1000;
       }
 
   }
