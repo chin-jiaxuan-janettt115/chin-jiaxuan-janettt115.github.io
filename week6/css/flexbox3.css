@@ -1,0 +1,43 @@
+.book p {
+    display: inline-block;
+    color: white;
+    background-color: #191A23;
+    border-radius: 14px;
+    padding: 20px 35px;
+}
+
+.middle {
+    gap: 200px;
+}
+
+.bottom {
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mobile-illus img {
+    display: none;
+}
+
+.illustration img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .bottom {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .mobile-illus img {
+        display: flex;
+        width: 85%;
+        margin: 10% auto;
+        justify-content: center;
+    }
+
+}
