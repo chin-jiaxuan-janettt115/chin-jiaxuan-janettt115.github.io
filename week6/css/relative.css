@@ -9,6 +9,7 @@
   .top {
       text-align: center;
       margin: auto;
+
   }
 
   .box {
@@ -34,14 +35,26 @@
       text-align: center;
       position: relative;
       top: -30px;
+      align-items: center;
+      justify-content: center;
+      margin: auto
   }
 
   .word a {
       color: rgb(33, 17, 215);
   }
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 800px) {
       .top h1 {
-          font-size: px;
+          font-size: 20px;
       }
+
+      .top p {
+          font-size: 20px;
+      }
+
+      .box {
+          flex-direction: column;
+      }
+
   }
