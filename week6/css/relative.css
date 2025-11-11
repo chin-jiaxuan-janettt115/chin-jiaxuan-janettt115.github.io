@@ -10,7 +10,16 @@
   .top {
       text-align: center;
       margin: auto;
+  }
 
+  .top p {
+      font-size: 20px;
+      color: rgb(211, 211, 211);
+  }
+
+  .top h1 {
+      font-size: 30px;
+      color: white;
   }
 
   .box {
@@ -30,20 +39,27 @@
 
   .word {
       width: 70%;
-      background-color: #b4b4b4;
+      background-color: rgb(105, 5, 5);
       padding: 10px;
       border-radius: 10px;
       text-align: center;
       position: relative;
       top: -30px;
-      align-items: center;
-      justify-content: center;
       margin: auto
   }
 
-  .word a {
-      color: rgb(33, 17, 215);
+
+  .box p {
+      font-weight: 500;
+      color: #e5e5e5;
   }
+
+  .box a {
+      text-decoration: none;
+      color: rgb(255, 47, 47);
+      font-weight: 1000;
+  }
+
 
   @media screen and (max-width: 800px) {
       .top h1 {
@@ -56,16 +72,6 @@
 
       .box {
           flex-direction: column;
-      }
-
-      .box p {
-          font-weight: 500;
-      }
-
-      .box a {
-          text-decoration: none;
-          color: red;
-          font-weight: 1000;
       }
 
   }
