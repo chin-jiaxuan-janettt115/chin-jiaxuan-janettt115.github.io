@@ -18,8 +18,6 @@
         margin: auto;
     }
 
-
-
     .bottom {
         background-color: #6f4d4d;
         padding: 20px;
@@ -28,7 +26,7 @@
 
     }
 
-    .bottom div {
+    .middle div {
         justify-content: center;
     }
 
@@ -42,7 +40,11 @@
         background-color: #ffffff;
         padding: 15px;
         border-radius: 20px;
+        display: flex;
+        gap: 20px;
+        width: 50%;
     }
+
 
     .icon {
         display: flex;
@@ -59,11 +61,22 @@
     .people-going {
         display: flex;
         align-items: center;
-        gap: 20px;
+        justify-content: space-between;
     }
 
     .people-going img {
-        width: 30px;
+        width: 25px;
+    }
+
+    .people-going .right {
+        display: flex;
+        gap: 15px;
+    }
+
+    .top img {
+        border-radius: 50%;
+        width: 100%;
+        max-width: 70px;
     }
 </style>
 
@@ -71,43 +84,31 @@
     <div class="all">
         <div class="first">
             <div class="bottom">
-                <img src="image/greec.jpeg" alt="landscape">
-                <h3>Trip to Greece</h3>
-                <p>14-29 June| by Robbin jackson</p>
-                <div class="icon">
-                    <div><img src="image/leaf.png" alt="leaf"></div>
-                    <div><img src="image/map.svg" alt="map"></div>
-                    <div><img src="image/gps.png" alt="gps"> </div>
+                <div class="middle">
+                    <img src="image/greec.jpeg" alt="landscape">
+                    <h3>Trip to Greece</h3>
+                    <p>14-29 June| by Robbin jackson</p>
+                    <div class="icon">
+                        <div><img src="image/leaf.png" alt="leaf"></div>
+                        <div><img src="image/map.svg" alt="map"></div>
+                        <div><img src="image/gps.png" alt="gps"> </div>
+                    </div>
                 </div>
                 <div class="people-going">
-                    <div><img src="image/building.png" alt="building"></div>
-                    <p>24 people going</p>
+                    <div class="right"><img src="image/building.png" alt="building">
+                        <p>24 people going</p>
+                    </div>
                     <div class="heart"><img src="image/heart.png" alt=""></div>
                 </div>
             </div>
             <div class="top">
-                <div class="bulding"></div>
-                <p>ongoing</p>
-                <h3>Trip to rome</h3>
-                <p>40%completed</p>
+                <div class="bulding"><img src="image/rome.jpg" alt="rome"></div>
+                <div class="top-right">
+                    <p>ongoing</p>
+                    <h3>Trip to rome</h3>
+                    <p>40%completed</p>
+                </div>
                 <div></div>
-            </div>
-        </div>
-        <div class="first">
-            <div class="bottom">
-                <img src="image/greec.jpeg" alt="landscape">
-                <h3>Trip to Greece</h3>
-                <p>14-29 June| by Robbin jackson</p>
-                <div class="icon">
-                    <div><img src="image/leaf.png" alt="leaf"></div>
-                    <div><img src="image/map.svg" alt="map"></div>
-                    <div><img src="image/gps.png" alt="gps"> </div>
-                </div>
-                <div class="people-going">
-                    <div><img src="image/building.png" alt="building"></div>
-                    <p>24 people going</p>
-                    <div class="heart"><img src="image/heart.png" alt=""></div>
-                </div>
             </div>
         </div>
     </div>
