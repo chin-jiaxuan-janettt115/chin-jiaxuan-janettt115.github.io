@@ -22,13 +22,9 @@
         background-color: #6f4d4d;
         padding: 20px;
         border-radius: 20px;
-        text-align: center;
-
     }
 
-    .middle div {
-        justify-content: center;
-    }
+
 
     .bottom img {
         width: 100%;
@@ -36,13 +32,17 @@
         border-radius: 30px;
     }
 
-    .top {
+    .smallbox {
         background-color: #ffffff;
         padding: 15px;
         border-radius: 20px;
         display: flex;
         gap: 20px;
-        width: 50%;
+        width: 35%;
+        position: absolute;
+        bottom: 180px;
+        left: 450px;
+        width: fit-content;
     }
 
 
@@ -73,10 +73,24 @@
         gap: 15px;
     }
 
-    .top img {
+    .smallbox img {
         border-radius: 50%;
         width: 100%;
         max-width: 70px;
+    }
+
+    .number {
+        color: rgb(102, 66, 244);
+        margin: 0px;
+    }
+
+    .completed {
+        display: flex;
+        gap: 5px;
+    }
+
+    .com {
+        margin: 0px;
     }
 </style>
 
@@ -101,12 +115,15 @@
                     <div class="heart"><img src="image/heart.png" alt=""></div>
                 </div>
             </div>
-            <div class="top">
+            <div class="smallbox">
                 <div class="bulding"><img src="image/rome.jpg" alt="rome"></div>
-                <div class="top-right">
-                    <p>ongoing</p>
+                <div class="small-right">
+                    <p class="ongoing">Ongoing</p>
                     <h3>Trip to rome</h3>
-                    <p>40%completed</p>
+                    <div class="completed">
+                        <p class="number">40%</p>
+                        <p class="com">completed</p>
+                    </div>
                 </div>
                 <div></div>
             </div>
