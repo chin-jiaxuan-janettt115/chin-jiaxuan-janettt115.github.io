@@ -70,6 +70,32 @@ body p {
     height: auto;
 }
 
+.submenu {
+    background-color: #B9FF66;
+    display: none;
+    position: absolute;
+    width: 200px;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #191A23;
+}
+
+.submenu a {
+    display: block;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.use:hover .submenu,
+.services:hover .submenu,
+.about:hover .submenu,
+.pricing:hover .submenu,
+.blog:hover .submenu {
+    display: block;
+}
+
 @media screen and (max-width: 1300px) {
     .top {
         font-size: 15px;
