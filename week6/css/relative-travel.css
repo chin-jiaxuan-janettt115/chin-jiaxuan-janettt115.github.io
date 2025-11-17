@@ -10,7 +10,7 @@
  .all {
      display: flex;
      gap: 150px;
-     margin: 8%;
+     padding: 0px 20px;
  }
 
  .bigbox {
@@ -95,7 +95,7 @@
      gap: 20px;
      position: absolute;
      bottom: 20px;
-     left: -20%;
+     left: -40%;
      box-shadow: 7px 6px 10px rgb(220, 220, 220);
  }
 
