@@ -8,6 +8,7 @@
   }
 
 
+
   .top {
       text-align: center;
       margin: auto;
@@ -44,7 +45,7 @@
   .word {
       width: 70%;
       background-color: rgb(105, 5, 5);
-      padding: 10px;
+      padding: 20px;
       border-radius: 10px;
       text-align: center;
       position: relative;
@@ -54,8 +55,10 @@
 
 
   .box p {
+      margin: 0px;
       font-weight: 500;
       color: #e5e5e5;
+
   }
 
   .box a {
