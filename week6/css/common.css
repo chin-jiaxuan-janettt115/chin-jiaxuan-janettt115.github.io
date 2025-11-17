@@ -77,7 +77,6 @@ body p {
     width: 200px;
     border-radius: 16px;
     padding: 10px;
-    margin-top: 10px;
     border: 1px solid #191A23;
 }
 
@@ -95,6 +94,17 @@ body p {
 .blog:hover .submenu {
     display: block;
 }
+
+.submenu:hover {
+    display: block;
+}
+
+.submenu a:hover {
+    background-color: #9fdf51;
+    display: block;
+    border-radius: 16px;
+}
+
 
 @media screen and (max-width: 1300px) {
     .top {

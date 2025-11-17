@@ -88,7 +88,7 @@
 
 
  .smallbox {
-     background-color: #b94040;
+     background-color: #ffffff;
      padding: 15px;
      border-radius: 20px;
      display: flex;
@@ -96,6 +96,7 @@
      position: absolute;
      bottom: 20px;
      left: -20%;
+     box-shadow: 7px 6px 10px rgb(220, 220, 220);
  }
 
  .smallbox .building {
@@ -178,7 +179,7 @@
      }
 
      .loading {
-         width: 130px;
+         width: 140px;
      }
 
      .smallloading {
