@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexbox3.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body>
+    <div class="top">
+        <div class="positivus">
+            <img src="image/positivus.png" alt="logo">
+        </div>
+        <div class="topright">
+            <div class="panel">
+                <div class="about">About us
+                    <div class="submenu">
+                        <a href="#">Our Impact in Numbers</a>
+                        <a href="#">Our Journey</a>
+                        <a href="#">Core Values</a>
+                        <a href="#">Awards & Recognition</a>
+                    </div>
+                </div>
+                <div class="services">Services
+                    <div class="submenu">
+                        <a href="#">How We Work: SEO Process</a>
+                        <a href="#">Use Cases</a>
+                        <a href="#">Our Other Services</a>
+                    </div>
+                </div>
+                <div class="use"><a href="usecase.html" target="_blank">Use cases</a>
+                    <div class="submenu">
+                        <a href="#">All Success Stories</a>
+                        <a href="#">Testimonials</a>
+                    </div>
+                </div>
+                <div class="pricing">Pricing
+                    <div class="submenu">
+                        <a href="#">Frequantly Asked</a>
+                    </div>
+                </div>
+                <div class="blog">Blog
+                    <div class="submenu">
+                        <a href="#">All Success Stories</a>
+                        <a href="#">Testimonials</a>
+                    </div>
+                </div>
+            </div>
+            <div class="request">
+                <a href="###">Request a quote</a>
+            </div>
+            <div class="hamburger"><img src="image/hamburger (1).png" alt="menu"></div>
+        </div>
+    </div>
+
+    <div class="middle">
+        <div class="left">
+            <div class="word">
+                <h1>Navigating the digital landscape for success</h1>
+                <div class="mobile-illus"><img src="image/Illustration.png" alt="illustration"></div>
+                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services
+                    including SEO,PPC, social media marketing, and content creation</p>
+            </div>
+            <div class="book">
+                <p>Book a concultation</p>
+            </div>
+        </div>
+        <div class="illustration">
+            <img src="image/Illustration.png" alt="illustration">
+        </div>
+    </div>
+    <div class="bottom">
+        <div><img src="image/Company logo.png" alt="amazon"></div>
+        <div><img src="image/Company logo-1.png" alt="drillle"></div>
+        <div><img src="image/Company logo-2.png" alt="hubspot"></div>
+        <div><img src="image/Company logo-3.png" alt="notion"></div>
+        <div><img src="image/Company logo-4.png" alt="netflix"></div>
+        <div><img src="image/Company logo-5.png" alt="zoom"></div>
+    </div>
+    <script>
+        const toggleButton = document.getElementById("menu-toggle");
+        const menu = document.getElementById("mobile-menu");
+
+        toggleButton.addEventListener("click", () => {
+            menu.classList.toggle("active");
+
+            // Change icon
+            if (menu.classList.contains("active")) {
+                toggleButton.innerHTML = "&times;"; // × (cross)
+            } else {
+                toggleButton.innerHTML = "&#9776;"; // ☰ (hamburger)
+            }
+        });
+    </script>
+
+</body>
+
+</html>
