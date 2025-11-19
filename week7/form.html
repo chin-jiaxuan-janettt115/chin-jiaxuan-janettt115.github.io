@@ -5,22 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            color: rgb(226, 43, 43);
+            background-color: #E3FDFD;
+            margin: 2%;
         }
 
-        input {
-            border: 1px solid rgb(0, 0, 0);
+        body h1 {
+            color: #3eacb2;
+            font-family: "Oxygen", sans-serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        input::placeholder,
+        textarea::placeholder,
+        input[type="date"] {
+            color: #71C9CE;
+        }
+
+        input,
+        .bio textarea {
+            border: 1px solid #3eacb2;
+            background-color: #f5feff;
             border-radius: 20px;
             padding: 10px 15px;
+            font-family: "Oxygen", sans-serif;
         }
 
         .top,
         .middle,
         .bottom {
             display: flex;
-            gap: 100px;
+            gap: 50px;
         }
 
         .firstname input,
@@ -28,7 +52,25 @@
         .dob input,
         .email input,
         .url input {
-            width: 200px;
+            width: 250px;
+            font-weight: 400;
+        }
+
+        .bio textarea {
+            width: 580px;
+            font-weight: 400;
+        }
+
+        .bio input {
+            width: 100px;
+            background-color: #3eacb2;
+            color: #f5feff;
+            font-weight: 800;
+        }
+
+        .color {
+            color: #3eacb2;
+            font-family: "Oxygen", sans-serif;
         }
     </style>
 </head>
@@ -79,7 +121,7 @@
             </div>
             <div class="bio">
                 <textarea name="bio" id="bio" cols="50" rows="10" placeholder="Self Introduction"></textarea><br>
-                <input type="submit" value="submit">
+                <input type="submit" value="Submit">
             </div>
         </form>
     </div>
