@@ -194,4 +194,9 @@ p {
         display: none;
     }
 
+    .use a {
+        text-decoration: none;
+        color: #191A23;
+    }
+
 }
