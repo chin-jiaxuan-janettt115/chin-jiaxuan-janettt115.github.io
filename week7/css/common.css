@@ -9,6 +9,11 @@ body p {
     font-size: 17px;
 }
 
+body a {
+    text-decoration: none;
+    color: #191A23;
+}
+
 .positivus img {
     width: 50%;
 }
