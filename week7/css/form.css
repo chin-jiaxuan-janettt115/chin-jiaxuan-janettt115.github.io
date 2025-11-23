@@ -1,0 +1,84 @@
+ body {
+     background-color: #00a7a7;
+     margin: 2%;
+ }
+
+ .big {
+     background-color: #E3FDFD;
+     padding: 10px 20px;
+     border-radius: 20px;
+     width: fit-content;
+     margin: auto;
+ }
+
+ .dailou {
+     margin: auto;
+ }
+
+ body h1 {
+     color: #3eacb2;
+     font-family: "Oxygen", sans-serif;
+     margin-top: 10px;
+ }
+
+ form {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+
+ .color,
+ .bio {
+     color: #3eacb2;
+     font-family: "Oxygen", sans-serif;
+ }
+
+ .bio {
+     display: flex;
+     flex-direction: column;
+ }
+
+ input::placeholder,
+ textarea::placeholder,
+ input[type="date"] {
+     color: #71C9CE;
+ }
+
+ input,
+ .bio textarea {
+     border: 1px solid #3eacb2;
+     background-color: #f5feff;
+     border-radius: 20px;
+     padding: 10px 15px;
+     font-family: "Oxygen", sans-serif;
+ }
+
+ .top,
+ .middle,
+ .bottom {
+     display: flex;
+     gap: 50px;
+ }
+
+ .firstname input,
+ .lastname input,
+ .dob input,
+ .email input,
+ .url input {
+     width: 150px;
+     font-weight: 400;
+ }
+
+
+ .bio textarea {
+     width: 95%;
+     font-weight: 400;
+ }
+
+ .bio input {
+     width: 150px;
+     background-color: #3eacb2;
+     color: #f5feff;
+     font-weight: 800;
+     margin-top: 10px;
+ }
