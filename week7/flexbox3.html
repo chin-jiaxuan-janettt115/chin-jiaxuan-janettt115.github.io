@@ -18,7 +18,7 @@
             <img src="image/positivus.png" alt="logo">
         </div>
         <div class="topright">
-            <div class="panel">
+            <div id="panel" class="panel">
                 <div class="about">About us
                     <div class="submenu">
                         <a href="#">Our Impact in Numbers</a>
@@ -27,6 +27,7 @@
                         <a href="#">Awards & Recognition</a>
                     </div>
                 </div>
+
                 <div class="services">Services
                     <div class="submenu">
                         <a href="#">How We Work: SEO Process</a>
@@ -55,10 +56,9 @@
             <div class="request">
                 <a href="###">Request a quote</a>
             </div>
-            <div class="hamburger"><img src="image/hamburger (1).png" alt="menu"></div>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </div>
     </div>
-
     <div class="middle">
         <div class="left">
             <div class="word">
@@ -85,7 +85,8 @@
     </div>
     <script>
         const toggleButton = document.getElementById("menu-toggle");
-        const menu = document.getElementById("mobile-menu");
+        const menu = document.getElementById("panel");
+
 
         toggleButton.addEventListener("click", () => {
             menu.classList.toggle("active");
@@ -97,8 +98,8 @@
                 toggleButton.innerHTML = "&#9776;"; // ☰ (hamburger)
             }
         });
-    </script>
 
+    </script>
 </body>
 
 </html>
