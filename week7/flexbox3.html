@@ -93,9 +93,11 @@
 
             // Change icon
             if (menu.classList.contains("active")) {
-                toggleButton.innerHTML = "&times;"; // × (cross)
+                toggleButton.innerHTML = "&times;";
+                document.body.style.overflow = 'hidden';
             } else {
-                toggleButton.innerHTML = "&#9776;"; // ☰ (hamburger)
+                toggleButton.innerHTML = "&#9776;";
+                document.body.style.overflow = 'auto';
             }
         });
 
